@@ -4,8 +4,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamMix<T>{
-    private static int first;
-    private static int second;
+    private int first;
+    private int second;
 
     public static <T> Stream<T> zip(Stream<T> first, Stream<T> second)
     {
