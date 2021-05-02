@@ -12,7 +12,6 @@ public class InfiniteStream {
                 25214903917L, 11L
                 , (long) Math.pow(2, 48),100)
                 .limit(5)
-                .collect(Collectors.toList()
-        ));
+                .collect(Collectors.toList()));
     }
 }
